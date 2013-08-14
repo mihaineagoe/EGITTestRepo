@@ -26,7 +26,7 @@ CLASS beGitTest:
     /* TODO: Change to use your schema */ 
 	DEFINE TEMP-TABLE ebeGitTest FIELD beGitTestField AS INTEGER INDEX beGitTestIndex IS UNIQUE PRIMARY beGitTestField.
 	DEFINE DATASET dsbeGitTest FOR ebeGitTest. 
-	
+	define variable abcd as char.
 	
     /*------------------------------------------------------------------------------
             Purpose:  Get one or more records, based on a filter string                                                                     
